@@ -20,8 +20,8 @@ type Reports []Report
 // Report contains statistics for single function.
 type Report struct {
 	Path       string `json:"path"`
-	Line       int    `json:"line"`
 	Name       string `json:"name"`
+	Line       int    `json:"line"`
 	Assignment int    `json:"assignment"`
 	Branch     int    `json:"branch"`
 	Condition  int    `json:"condition"`
@@ -54,7 +54,6 @@ func main() {
 
 	for _, path := range fileList {
 		node, err := parser.ParseFile(fileSet, path, nil, 0)
-
 		if err != nil {
 			continue
 		}
@@ -203,7 +202,6 @@ func (reports Reports) renderTable() {
 
 func (reports Reports) renderJSON() {
 	bytes, err := json.Marshal(reports)
-
 	if err != nil {
 		fmt.Println(err)
 	}
