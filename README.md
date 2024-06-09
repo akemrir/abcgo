@@ -1,8 +1,8 @@
 # ABCGo
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/droptheplot/abcgo)](https://goreportcard.com/report/github.com/droptheplot/abcgo)
-[![Build Status](https://travis-ci.org/droptheplot/abcgo.svg?branch=master)](https://travis-ci.org/droptheplot/abcgo)
-[![GoDoc](https://godoc.org/github.com/droptheplot/abcgo?status.svg)](https://godoc.org/github.com/droptheplot/abcgo)
+[![Go Report Card](https://goreportcard.com/badge/github.com/akemrir/abcgo)](https://goreportcard.com/report/github.com/akemrir/abcgo)
+[![Build Status](https://travis-ci.org/akemrir/abcgo.svg?branch=master)](https://travis-ci.org/akemrir/abcgo)
+[![GoDoc](https://godoc.org/github.com/akemrir/abcgo?status.svg)](https://godoc.org/github.com/akemrir/abcgo)
 
 ABC metrics for Go source code.
 
@@ -30,8 +30,8 @@ Final score is calculated as follows:
 ### Installation
 
 ```shell
-$ go get -u github.com/droptheplot/abcgo
-$ (cd $GOPATH/src/github.com/droptheplot/abcgo && go install)
+$ go get -u github.com/akemrir/abcgo
+$ (cd $GOPATH/src/github.com/akemrir/abcgo && go install)
 ```
 
 ### Usage
@@ -108,4 +108,4 @@ Project summary:   22   43   15
 
 ### Plugins
 
-* [Vim](https://github.com/droptheplot/abcgo/vim)
+* [Vim](https://github.com/akemrir/abcgo/vim)
