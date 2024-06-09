@@ -54,6 +54,7 @@ dump:
 
 push:
 	git push origin master --tags
+	git push git master --tags
 
 cover:
 	go test -v -coverprofile cover.out ./...
