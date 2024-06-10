@@ -6,6 +6,8 @@
 
 ABC metrics for Go source code.
 
+Based on https://github.com/droptheplot/abcgo
+
 ## Definition
 
 ABCGo uses these rules to calculate ABC:
