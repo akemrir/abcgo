@@ -1,0 +1,20 @@
+{
+  "*.go": {
+    "type": "",
+    "alternate": [
+      "{}_test.go"
+    ],
+    "template": [
+      ""
+    ]
+  },
+  "*_test.go": {
+    "type": "test",
+    "alternate": [
+      "{}.go"
+    ],
+    "template": [
+      ""
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+---
+session_name: <% .codename %>
+start_directory: <% pwd %>
+
+windows:
+  - window_name: observe
+    panes:
+      - com obs run
+      - nvim Makefile README.md commander.yml -p
+
+  - window_name: editor
+    panes:
+      - nvim -S session.vim
+      - blank
